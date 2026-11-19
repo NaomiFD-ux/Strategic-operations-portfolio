@@ -124,10 +124,10 @@ const App: React.FC = () => {
 
         <footer className="relative py-12 px-8 border-t border-white/5 bg-background-dark/80 backdrop-blur-md">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-neutral-text text-sm">
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap justify-center items-center gap-2">
               <span className="font-bold text-white tracking-tighter uppercase">Naomi F. Donley</span>
               <span className="opacity-40">/</span>
-              <span>Project Management & Field Operations</span>
+              <span>Project Management | Proposal & Tender Management | Strategic Operations</span>
             </div>
             <p>© {new Date().getFullYear()} Naomi F. Donley. All rights reserved.</p>
           </div>

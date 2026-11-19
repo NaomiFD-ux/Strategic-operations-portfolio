@@ -10,9 +10,9 @@ const WhatIDo: React.FC<WhatIDoProps> = ({ id }) => {
 
   const capabilities = [
 {
-    "title": "Electrical Equipment Project Delivery",
+    "title": "Project Lifecycle Management",
     "icon": "electrical_services",
-    "description": "Managing projects from purchase order through drawings, procurement, production, delivery, site setup, and closeout. I align customer requirements with engineering and manufacturing execution.",
+    "description": "Managing technical projects from planning and procurement through production, delivery, site setup, and closeout. I align customer requirements with engineering and manufacturing execution.",
     "tags": [
         "Project schedules",
         "Switchboards & panelboards",
@@ -32,16 +32,16 @@ const WhatIDo: React.FC<WhatIDoProps> = ({ id }) => {
     ]
 },
     {
-      title: "Proposal & Pursuit Management",
+      title: "Proposal & Tender Management",
       icon: "task_alt",
-      description: "Managing the full lifecycle of complex RFPs, RFIs, and strategic bids. I coordinate inputs, timelines, and reviews to ensure proposals are compelling, compliant, and ready to execute—not just submitted.",
-      tags: ["End-to-end proposal coordination", "RFP/RFI strategy & positioning", "Narrative development & editing", "Compliance checks & quality reviews"]
+      description: "Leading RFP, RFQ, and RFI responses from solicitation review through submission. I build compliance matrices, coordinate inputs and reviews, and align proposed scope with delivery requirements.",
+      tags: ["Strategic pursuits", "RFP / RFQ / RFI", "Proposal development", "Compliance matrices"]
     },
     {
-      title: "Client & Delivery Operations",
+      title: "Strategic Operations",
       icon: "hub",
-      description: "Bridging the gap between sales commitments and real-world delivery. I support smooth handoffs from proposal to implementation by aligning stakeholders, expectations, and workflows early.",
-      tags: ["Client onboarding & transitions", "Cross-functional coordination", "SLA & expectation alignment", "Client lifecycle support"]
+      description: "I improve handoffs between sales, delivery, and client teams through workflow automation, standard procedures, client portals, and reporting.",
+      tags: ["Stakeholder coordination", "AI-enabled automation", "SOP development", "Reporting & data analysis"]
     },
     {
       title: "Pricing & Commercial Alignment",
@@ -126,9 +126,9 @@ const WhatIDo: React.FC<WhatIDoProps> = ({ id }) => {
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center space-y-4 mb-20">
           <span className="text-primary font-bold text-xs uppercase tracking-widest">Core Capabilities</span>
-          <h2 className="text-white text-4xl sm:text-5xl font-extralight tracking-tight">Project & Operations Capabilities</h2>
+          <h2 className="text-white text-4xl sm:text-5xl font-extralight tracking-tight">Project, Proposal & Operations Capabilities</h2>
           <p className="text-neutral-text max-w-2xl mx-auto font-light">
-            Connecting customers, engineering, manufacturing, and field teams from the first requirement to final delivery.
+            Connecting commercial, technical, and operations teams from the first requirement through proposal, delivery, and closeout.
           </p>
         </div>
 

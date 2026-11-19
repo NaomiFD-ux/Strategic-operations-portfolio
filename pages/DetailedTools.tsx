@@ -82,7 +82,7 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
       name: "Automated EMS Proposal Tool",
       company: "FlexGen",
       toolType: "Internal Proposal Automation",
-      context: "When I joined FlexGen as a Proposal Coordinator, I was brought on to support the growing volume of Energy Management System proposals. Within my first few weeks, I noticed the team spending hours manually transcribing data from complex Price Worksheets into PowerPoint decks—work that was tedious, error-prone, and created real bottlenecks.",
+      context: "At FlexGen, I led Energy Management System proposals as Proposal Manager | Automations Specialist. Within my first few weeks, I noticed the team spending hours manually transcribing data from complex Price Worksheets into PowerPoint decks—work that was tedious, error-prone, and created real bottlenecks.",
       approach: "I started by shadowing the process end-to-end, asking questions about what information was always needed, what changed between proposals, and where errors typically crept in. I mapped out the entire workflow and identified the repetitive patterns. Then I began building—starting small with one section, testing it with the team, getting feedback, and iterating. I collaborated closely with Business Development and Tendering to make sure the output matched what they actually needed, not just what I assumed.",
       building: "The tool I built transforms EMS Price Worksheet inputs into fully formatted, client-ready proposals automatically. It standardizes structure, formatting, and content logic while allowing rapid regeneration when pricing or scope changes. I designed it to be flexible enough that anyone on the team could use it without needing to understand the backend logic.",
       impacts: [
@@ -91,7 +91,7 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
         "Improved pricing accuracy and consistency across submissions",
         "Allowed sales teams to present pricing to customers earlier in the deal cycle"
       ],
-      result: "Reduced EMS proposal turnaround from ~1 week to under 24 hours, accelerating deal velocity and supporting faster contract execution.",
+      result: "Reduced EMS proposal turnaround time by over 90%, generating client-ready proposals in minutes.",
       tools: ["Excel (Advanced)", "PowerPoint", "VBA/Macros", "SharePoint"],
       testimonial: {
         quote: "This tool completely transformed how we handle EMS proposals. What used to take days now takes minutes, and the accuracy is consistently better than our manual process ever was.",
@@ -100,6 +100,18 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
         company: "FlexGen",
         linkedin: "https://www.linkedin.com/in/antonio-wade-764719139/"
       }
+    },
+    {
+      name: "Obsidian WorkHub",
+      company: "Strategic Operations",
+      toolType: "Knowledge Management Workspace",
+      context: "Project work calls for a consistent place to organize working information.",
+      approach: "I used Obsidian to bring working information into a single workspace.",
+      building: "A single Obsidian workspace for project notes and working information.",
+      impacts: ["Keeps working information together in one workspace"],
+      result: "Created within the first 90 days.",
+      tools: ["Obsidian", "Knowledge Management"],
+      testimonial: null
     },
     {
       name: "Supply Department Proposal Generator",
@@ -179,7 +191,7 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
       name: "Payroll Data Intake & Implementation Automation Tool",
       company: "Viventium",
       toolType: "AI-Powered Web Application",
-      context: "As a Client Coordinator and Implementation Specialist at Viventium, I was at the center of every client onboarding. The reality? Clients submitted payroll and HR data from dozens of different payroll providers—ADP, Paychex, Gusto, legacy systems, and everything in between. Each had unique formats, naming conventions, and structures. Every onboarding meant hours of manual data cleanup, delayed implementations, and constant risk of errors slipping into the system.",
+      context: "As a Sales & Proposal Coordinator at Viventium, I was at the center of every client onboarding. The reality? Clients submitted payroll and HR data from dozens of different payroll providers—ADP, Paychex, Gusto, legacy systems, and everything in between. Each had unique formats, naming conventions, and structures. Every onboarding meant hours of manual data cleanup, delayed implementations, and constant risk of errors slipping into the system.",
       approach: "I started documenting every data format we received, mapping the patterns across providers. The core insight was that even though the formats looked completely different, the underlying data was always the same—employee info, pay rates, deductions, tax withholdings. I realized we needed something smarter than manual processes. I began exploring how we could use structured logic combined with AI to automatically identify fields, standardize values, and handle the messiness that came with real-world client data.",
       building: "I designed and built an intelligent intake and transformation web application that allows implementation teams to upload payroll reports from any provider, select the client and target system configuration, and automatically normalize, map, and format the data into implementation-ready templates. The tool uses structured logic and AI-assisted sorting to identify fields, standardize values, and prepare clean outputs—without requiring manual rework. It handles the variation so the team doesn't have to.",
       impacts: [
@@ -207,19 +219,19 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
 
   const skillCategories = [
     {
-      title: "Project & Field Operations",
+      title: "Project Management & Field Operations",
       icon: "description",
-      items: ["Project Scheduling", "Procore Submittals", "Procurement Tracking", "Inspection Documentation", "Photos & Punch Lists", "Closeout Records", "Excel (Advanced)"]
+      items: ["Project Scheduling", "Procurement", "Change Orders", "Procore Submittals", "Electrical Drawing Review", "Equipment Inspections & Testing", "Project Closeout"]
     },
     {
-      title: "Automation & Development",
+      title: "Strategic Operations & Automation",
       icon: "code",
-      items: ["VBA/Macros", "Web Applications", "Document Generation", "Workflow Automation", "Data Transformation", "API Integration"]
+      items: ["AI-Enabled Workflows", "Client Portals", "SOP Development", "Power BI", "Excel", "Microsoft Copilot", "SharePoint"]
     },
     {
-      title: "Client & Commercial Coordination",
+      title: "Proposal & Tender Management",
       icon: "groups",
-      items: ["Client Onboarding", "Vendor Coordination", "Contracts & Change Orders", "RFI/RFP Analysis", "Salesforce", "SharePoint", "Stakeholder Communication"]
+      items: ["RFP / RFQ / RFI Management", "Compliance Matrices", "Pricing Validation", "Contract Administration", "Qvidian", "Salesforce"]
     }
   ];
 

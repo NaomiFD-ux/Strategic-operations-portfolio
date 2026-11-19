@@ -14,7 +14,7 @@ const Projects: React.FC<ProjectsProps> = ({ id }) => {
     "role": "Project Manager",
     "toolType": "Project Visibility & Customer Coordination",
     "image": "/epec-project-workflow.svg",
-    "challenge": "Electrical equipment projects require clear records of customer communication, drawing revisions, submittals, inspection windows, and deliveries across multiple teams.",
+    "challenge": "Managing 20+ concurrent electrical equipment projects requires clear records of customer communication, drawing revisions, submittals, inspection windows, and deliveries across multiple teams.",
     "innovation": "Designed the EPEC Client Portal and built a job tracker to organize project communications and submittals. Developed customer onboarding materials and trained fellow project managers on the portal pilot.",
     "impacts": [
         "Leadership-approved pilot for three project managers",
@@ -32,7 +32,7 @@ const Projects: React.FC<ProjectsProps> = ({ id }) => {
 },
     {
       title: "Automated EMS Proposal Tool",
-      role: "Proposal Coordinator",
+      role: "Proposal Manager | Automations Specialist",
       toolType: "Internal Proposal Automation",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80",
       challenge: "EMS proposals were created through manual transcription from complex Price Worksheets into PowerPoint decks. The process was slow, error-prone, and heavily dependent on individual knowledge, resulting in long turnaround times and inconsistent outputs.",
@@ -43,12 +43,23 @@ const Projects: React.FC<ProjectsProps> = ({ id }) => {
         "Improved pricing accuracy and consistency across submissions",
         "Allowed sales teams to present pricing to customers earlier in the deal cycle"
       ],
-      result: "Reduced EMS proposal turnaround from ~1 week to under 24 hours, accelerating deal velocity and supporting faster contract execution.",
+      result: "Reduced EMS proposal turnaround time by over 90%, generating client-ready proposals in minutes.",
       tools: ["Excel (Advanced)", "PowerPoint", "VBA/Macros", "SharePoint"]
     },
     {
+      title: "Obsidian WorkHub",
+      role: "Strategic Operations",
+      toolType: "Knowledge Management Workspace",
+      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80",
+      challenge: "Project work calls for a consistent place to organize working information.",
+      innovation: "Built a workspace in Obsidian to organize project notes and working information.",
+      impacts: ["Keeps working information together in one workspace"],
+      result: "Created within the first 90 days.",
+      tools: ["Obsidian", "Knowledge Management"]
+    },
+    {
       title: "Supply Department Proposal Generator",
-      role: "Proposal Coordinator",
+      role: "Proposal Manager | Automations Specialist",
       toolType: "Proposal Automation + Engineering Handoff Optimization",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
       challenge: "Supply proposals required extensive manual data entry across multiple product components, creating bottlenecks between engineering sizing and proposal delivery. Turnaround times averaged two weeks per proposal.",
@@ -64,7 +75,7 @@ const Projects: React.FC<ProjectsProps> = ({ id }) => {
     },
     {
       title: "EMS Pricing & Proposal Portal",
-      role: "Proposal Coordinator",
+      role: "Proposal Manager | Automations Specialist",
       toolType: "Customer-Facing Pricing & Proposal Tool",
       image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=80",
       challenge: "Customers had to wait for sales teams to manually generate pricing and proposals, creating delays in the buying process. This back-and-forth slowed deal momentum and made it harder for clients to explore options on their own timeline.",

@@ -8,28 +8,28 @@ interface CareerProps {
 const Career: React.FC<CareerProps> = ({ id }) => {
   const journey = [
 {
-    "role": "Project Manager",
+    "role": "Project Manager | Field Operations | Process Improvement (Contract)",
     "company": "EPEC Solutions Inc.",
-    "period": "Current Role",
-    "description": "Managing electrical equipment projects from purchase order through factory inspections, testing, site delivery, setup, and closeout. Coordinating customers, engineering, manufacturing, procurement, and project documentation."
+    "period": "March 2026 – Present",
+    "description": "Managing 20+ concurrent engineered electrical equipment projects from proposal and purchase order through factory inspections, testing, site delivery, setup, and closeout. Coordinating customers, engineering, manufacturing, procurement, and project documentation."
 },
     {
-      role: "Proposal Coordinator (Contract)",
+      role: "Proposal Manager | Automations Specialist (Contract)",
       company: "FlexGen",
-      period: "2025",
-      description: "Orchestrating end-to-end proposal lifecycles for EMS and Full-Product offerings. Automated proposal generation, reducing turnaround time by over 90%."
+      period: "February 2025 – May 2026",
+      description: "Led end-to-end proposal lifecycles for EMS and Full-Product offerings. Automated proposal generation, reducing turnaround time by over 90%."
     },
     {
-      role: "Client Service Coordinator",
+      role: "Client Service Coordinator (Contract)",
       company: "Spectraforce",
-      period: "2024 — 2025",
-      description: "Managing entire candidate lifecycles for high-profile accounts (Schwab, Cigna). Standardized tracking templates and improved documentation efficiency."
+      period: "July 2024 – February 2025",
+      description: "Managed contractor agreements and onboarding for enterprise accounts, including Charles Schwab, Cigna, and Cencora. Standardized tracking templates and improved documentation efficiency."
     },
     {
-      role: "Sales Coordinator",
+      role: "Sales & Proposal Coordinator (Contract)",
       company: "Viventium",
-      period: "2023 — 2024",
-      description: "Primary point of contact for payroll implementation. Built transformation tools to sanitize legacy client data, accelerating time-to-revenue."
+      period: "August 2023 – February 2024",
+      description: "Led client onboarding from contract signature through payroll implementation, managing proposals, contracts, and data migration."
     }
   ];
 

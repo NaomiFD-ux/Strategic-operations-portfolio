@@ -1,10 +1,10 @@
 # Strategic Operations Portfolio
 
-Project management, energy operations, and process improvement—supported by practical workflow automation.
+Project management, proposal and tender management, and strategic operations.
 
 ## Overview
 
-This React and TypeScript website presents Naomi’s professional experience and selected case studies for hiring teams evaluating project coordination, business operations, and process improvement capabilities.
+This React and TypeScript website presents Naomi’s professional experience and selected case studies for hiring teams evaluating project delivery, proposal and tender management, and business operations capabilities.
 
 Start here for the current project-management and operations narrative.
 

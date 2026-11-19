@@ -30,7 +30,7 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
     'flexgen-tool': {
       title: 'EMS Proposal Automation',
       description: 'Built a tool that transforms Price Worksheet inputs into client-ready proposals automatically.',
-      metric: '90% faster turnaround'
+      metric: 'Over 90% less proposal turnaround time'
     },
     'portal': {
       title: 'Customer Pricing Portal',
@@ -119,7 +119,7 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
                 </p>
 
                 <p>
-                  Here's what I mean: In my current role at FlexGen, I was brought on to coordinate EMS proposals. Within weeks, I noticed the team spending hours manually transcribing pricing data into PowerPoint decks—tedious, error-prone, and slow. So{' '}
+                  Here's what I mean: At FlexGen, as Proposal Manager | Automations Specialist, I led the EMS proposal lifecycle. Within weeks, I noticed the team spending hours manually transcribing pricing data into PowerPoint decks—tedious, error-prone, and slow. So{' '}
                   <span
                     className="text-primary border-b border-primary/30 cursor-help hover:border-primary transition-colors"
                     onMouseEnter={() => setActiveHighlight('flexgen-tool')}
@@ -127,7 +127,7 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
                   >
                     I built a tool that transforms Price Worksheet inputs into fully formatted, client-ready proposals automatically
                   </span>
-                  . Turnaround went from a week to under 24 hours.
+                  . The automation generated client-ready proposals in minutes and reduced turnaround time by over 90%.
                 </p>
 
                 <p>

@@ -31,13 +31,13 @@ const AboutMe: React.FC<AboutMeProps> = ({ onBack }) => {
             </div>
             <div className="space-y-6 text-neutral-text text-lg font-light leading-relaxed">
               <p>
-                I’m a Project Manager at EPEC Solutions with experience across electrical equipment delivery, field operations, proposals, contracts, and client implementation. I manage projects from purchase order through factory inspections, testing, site delivery, setup, and closeout.
+                I bring more than four years of experience in project management, proposal and tender management, and strategic operations. At EPEC Solutions, I manage 20+ concurrent engineered electrical equipment projects through procurement, production, factory testing, site delivery, and closeout.
               </p>
               <p>
                 I began my career working directly with customers: managing requests, resolving issues, coordinating services, and navigating complex conversations where clarity, accuracy, and trust mattered. Those early experiences shaped how I work today — with a strong sense of ownership, empathy, and accountability for outcomes, not just tasks.
               </p>
               <p>
-                As my roles expanded, so did my scope. I moved into client coordination, sales support, onboarding, and proposal operations, where I became responsible for aligning customer needs with internal teams, pricing models, and delivery capabilities. That work taught me how critical it is to ensure that what’s sold, proposed, or promised can actually be executed downstream.
+                As my roles expanded, so did my scope. I moved into client coordination, sales support, onboarding, and proposal operations, where I became responsible for aligning customer needs with internal teams, pricing models, and delivery capabilities. At FlexGen, I led the EMS and Full-Product proposal lifecycle, working with engineering, finance, legal, operations, and business development to align scope, pricing, and compliance.
               </p>
             </div>
           </section>
@@ -72,7 +72,8 @@ const AboutMe: React.FC<AboutMeProps> = ({ onBack }) => {
               <div className="space-y-4">
                 <h2 className="text-white text-4xl font-extralight tracking-tight">Process, <span className="font-semibold text-primary">Not Just Paper.</span></h2>
                 <p className="text-neutral-text text-lg font-light leading-relaxed">
-                  Across project delivery, field coordination, proposals, and client operations, I build practical systems that make schedules, documentation, and handoffs easier to manage. At EPEC, this includes a project tracker, standardized onboarding materials, and a leadership-approved client portal pilot.
+                  Across project delivery, field coordination, proposals, and client operations, I build practical systems that make schedules, documentation, and handoffs easier to manage. At EPEC, this includes a project tracker, standardized onboarding materials, and a leadership-approved client portal pilot. </p>
+                <p>I also created Obsidian WorkHub within my first 90 days.
                 </p>
               </div>
               <ul className="space-y-4">
@@ -136,7 +137,7 @@ const AboutMe: React.FC<AboutMeProps> = ({ onBack }) => {
                 </div>
                 <div className="flex flex-wrap justify-center gap-3">
                    {[
-                     "Project Management & Delivery",
+                     "Project Lifecycle Management",
                      "Field Operations & Equipment Inspections",
                      "Proposals & Commercial Coordination",
                      "Client Services & Account Coordination",

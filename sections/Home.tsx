@@ -25,11 +25,13 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
               Naomi F. <br />
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary to-white">Donley</span>
             </h1>
-            <p className="text-primary text-xs sm:text-sm font-bold uppercase tracking-widest">Project Management | Field Operations | Process Improvement</p>
+            <p className="text-primary text-xs sm:text-sm font-bold uppercase tracking-widest">Project Management | Proposal & Tender Management | Strategic Operations</p>
             <p className="text-neutral-text text-lg sm:text-xl font-light leading-relaxed max-w-xl">
-              I manage electrical equipment projects from purchase order through production, factory inspections, site delivery, setup, and closeout. I connect customers, engineers, manufacturers, and field teams to keep schedules, materials, documentation, and quality aligned—and build tools that make the work easier to manage.
+              I manage technical projects and commercial pursuits, from the first requirements through proposal submission, delivery, and closeout. I bring teams together and build tools that make repeatable work faster and easier to track.
             </p>
           </div>
+
+          <p className="text-primary text-sm font-semibold tracking-widest">Embrace. Evolve. Excel.</p>
 
           <div className="flex flex-wrap items-center gap-6 pt-2">
             <button 
@@ -54,12 +56,12 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
 
           <div className="pt-8 flex flex-col sm:flex-row gap-12 border-t border-white/5 mt-4">
             <div className="flex flex-col">
-              <span className="text-3xl font-light text-white">90%</span>
-              <span className="text-xs uppercase tracking-widest text-neutral-text font-bold">Turnaround Improvement</span>
+              <span className="text-3xl font-light text-white">&gt;90%</span>
+              <span className="text-xs uppercase tracking-widest text-neutral-text font-bold">Less EMS Proposal Turnaround Time</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-3xl font-light text-white">Advanced</span>
-              <span className="text-xs uppercase tracking-widest text-neutral-text font-bold">Excel & CRM Expert</span>
+              <span className="text-3xl font-light text-white">20+</span>
+              <span className="text-xs uppercase tracking-widest text-neutral-text font-bold">Concurrent Technical Projects at EPEC</span>
             </div>
             <div className="flex flex-col">
               <span className="text-3xl font-light text-white">Factory + Field</span>
