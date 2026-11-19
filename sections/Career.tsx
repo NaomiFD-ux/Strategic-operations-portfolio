@@ -11,25 +11,25 @@ const Career: React.FC<CareerProps> = ({ id }) => {
     "role": "Project Manager | Field Operations | Process Improvement (Contract)",
     "company": "EPEC Solutions Inc.",
     "period": "March 2026 – Present",
-    "description": "Managing 20+ concurrent engineered electrical equipment projects from proposal and purchase order through factory inspections, testing, site delivery, setup, and closeout. Coordinating customers, engineering, manufacturing, procurement, and project documentation."
+    "description": "Managing 20+ concurrent engineered electrical equipment projects from proposal and purchase order through factory inspections, testing, site delivery, setup, and closeout. Serving as the primary customer contact and coordinating engineering, manufacturing, procurement, and Procore approvals."
 },
     {
       role: "Proposal Manager | Automations Specialist (Contract)",
       company: "FlexGen",
       period: "February 2025 – May 2026",
-      description: "Led end-to-end proposal lifecycles for EMS and Full-Product offerings. Automated proposal generation, reducing turnaround time by over 90%."
+      description: "Led EMS and Full-Product proposals, from solicitation analysis and compliance planning through pricing validation and submission. Automated EMS proposal generation, reducing turnaround time by over 90%."
     },
     {
       role: "Client Service Coordinator (Contract)",
       company: "Spectraforce",
       period: "July 2024 – February 2025",
-      description: "Managed contractor agreements and onboarding for enterprise accounts, including Charles Schwab, Cigna, and Cencora. Standardized tracking templates and improved documentation efficiency."
+      description: "Managed contractor agreements and onboarding for enterprise accounts, including Charles Schwab, Cigna, and Cencora. Oversaw screening and compliance documentation and standardized tracking and reporting."
     },
     {
       role: "Sales & Proposal Coordinator (Contract)",
       company: "Viventium",
       period: "August 2023 – February 2024",
-      description: "Led client onboarding from contract signature through payroll implementation, managing proposals, contracts, and data migration."
+      description: "Led client onboarding from contract signature through payroll implementation handoff. Managed contracts and proposals in Salesforce and Asana and validated payroll data for migration."
     }
   ];
 

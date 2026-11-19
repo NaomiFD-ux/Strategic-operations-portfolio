@@ -40,17 +40,14 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
     "overview": "Manage 20+ concurrent engineered electrical equipment projects from proposal and purchase order through delivery, site setup, and closeout for switchboards, panelboards, rack-on-rack solar skids, and PLC/HMI control systems. Serve as the customer’s primary contact while aligning engineering, manufacturing, materials, schedules, quality, and commercial requirements.",
     "stakeholders": "Customers, Engineers of Record, Sales, Engineering, Manufacturing Partners, Operations, Accounting",
     "responsibilities": [
-        "Lead project kickoff meetings, customer coordination calls, and design reviews; track decisions, risks, and action items.",
-        "Review single-line diagrams, layouts, wiring drawings, and specifications; consolidate comments and manage submittals and revisions, including customer Procore portals.",
-        "Confirm bills of material, part numbers, and quantities against approved drawings; track purchase orders, deposits, and long-lead equipment.",
-        "Maintain production schedules, inspection windows, ship dates, and delivery plans; escalate delays and coordinate recovery options.",
-        "Visit factories for progress and in-process inspections; witness and verify equipment testing before shipment.",
-        "Document inspection results using time-stamped photographs, punch lists, and sign-offs; follow up on open items before shipping.",
-        "Coordinate carriers and site delivery windows; inspect incoming equipment for damage and completeness and oversee setup with customer teams.",
-        "Perform or witness onsite inspections and testing; coordinate corrective work, replacement parts, and field issue resolution.",
-        "Negotiate and document change orders, storage arrangements, and customer-supplied equipment custody requirements.",
-        "Prepare compliance packages, record drawings, test reports, and closeout documentation; coordinate invoicing milestones.",
-        "Build project tracking tools and develop a client portal pilot approved for three project managers; train colleagues and standardize onboarding documentation."
+        "Manage 20+ concurrent engineered electrical equipment projects from proposal and purchase order through production, delivery, site setup, and closeout. Projects include switchboards, panelboards, solar skids, and PLC/HMI control systems.",
+        "Serve as the primary customer contact, leading kickoff meetings, design reviews, and project updates while coordinating engineering, manufacturing partners, vendors, and internal operations.",
+        "Review electrical drawings, single-line diagrams, specifications, and bills of material. Coordinate RFIs and manage submittals, revisions, and customer approvals in Procore.",
+        "Maintain schedules for procurement, long-lead materials, production, factory inspections, shipment, and delivery. Identify schedule risks and coordinate recovery plans.",
+        "Conduct factory progress and quality inspections, witness equipment testing, and verify shipment readiness with photographs, punch lists, and sign-offs.",
+        "Coordinate site deliveries, check equipment for damage and completeness, oversee setup with customers, and perform or witness onsite inspections and testing.",
+        "Manage change orders, customer-supplied equipment logistics, storage, and field issues. Coordinate corrective work and replacement parts with manufacturers.",
+        "Develop project tracking tools, standardized documentation, and a leadership-approved client portal pilot to improve visibility and coordination across project teams and executive leadership."
     ],
     "tools": [
         "Procore (Customer Submittals)",
@@ -87,18 +84,14 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
       period: 'February 2025 – May 2026',
       summary: 'Led the end-to-end proposal lifecycle for Energy Management Systems (EMS) and Full-Product offerings.',
       overview: 'Led the end-to-end proposal lifecycle for Energy Management System (EMS) and Full-Product offerings, supporting pricing validation, scope alignment, and timely delivery of client-ready proposals. Served as the central point of contact across Business Development, Engineering, Legal, Finance, Operations, and vendors—coordinating inputs, aligning scope, and ensuring proposals are technically accurate, commercially sound, and operationally executable.',
-      stakeholders: 'Business Development, Engineering, Operations, Vendors, Leadership',
+      stakeholders: 'Business Development, Engineering, Legal, Finance, Operations, Executive Leadership, Subject Matter Experts',
       responsibilities: [
-        'Own end-to-end proposal coordination, managing timelines, deliverables, and cross-functional inputs.',
-        'Serve as central liaison between BD, Engineering, Operations, and external vendors.',
-        'Contribute directly to proposal content development, reviewing and refining sections for clarity, accuracy, and alignment with customer requirements.',
-        'Analyzed RFPs, RFQs, and RFIs for evaluation criteria, compliance obligations, contractual risks, and submission requirements. Built compliance matrices and proposal management plans.',
-        'Manage document control and data flow using SharePoint, Salesforce, and Excel—ensuring accuracy, version control, and timely access for cross-functional teams.',
-        'Coordinate vendor quotes, technical inputs, and pricing details across internal teams and external partners.',
-        'Validate pricing and ensure alignment between scope, cost, and customer expectations.',
-        'Prepare and assemble final bid packages, proposals, and client-ready presentations.',
-        'Maintain high levels of integrity, accuracy, and accountability while managing sensitive operational and customer-facing data.',
-        'Identify process inefficiencies and build automation tools to reduce manual effort and errors.'
+        "Led the full EMS and Full-Product proposal lifecycle, supporting pricing validation, scope alignment, and timely delivery of client-ready proposals.",
+        "Analyzed RFPs, RFQs, and RFIs for evaluation criteria, compliance obligations, contractual requirements, risks, and submission instructions. Built compliance matrices and proposal management plans.",
+        "Supported business development and capture through customer Q&A, proposal strategy discussions, process improvements, and post-submission lessons learned.",
+        "Partnered with engineering, legal, operations, finance, business development, executive leadership, and subject matter experts to develop compliant technical and management proposals.",
+        "Drafted, reviewed, and refined proposal content for clarity, accuracy, and alignment with customer requirements.",
+        "Handled sensitive operational and customer-facing data with care. Managed document control, version history, and cross-functional access in SharePoint, Salesforce, and Excel."
       ],
       tools: ['Excel (Advanced)', 'Salesforce', 'PowerPoint', 'SharePoint', 'Document Control', 'Word', 'Proposal Automation Tools'],
       references: [
@@ -138,17 +131,15 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
       role: 'Client Service Coordinator (Contract)',
       period: 'July 2024 – February 2025',
       summary: 'Managing candidate lifecycles for high-profile accounts like Charles Schwab, Cigna, and Cencora.',
-      overview: 'Served as the main point of contact for multiple high-profile client accounts, including Charles Schwab, Cigna, and Cencora, managing contractor agreements and the entire candidate lifecycle from offers and onboarding to compliance and performance tracking.',
+      overview: 'Served as the main point of contact for multiple high-profile client accounts, including Charles Schwab, Cigna, and Cencora, managing contractor agreements and the entire candidate lifecycle with a focus on onboarding, compliance, audit-ready records, and reporting.',
       stakeholders: 'Charles Schwab, Cigna, Cencora, Hiring Managers, Recruiters, Onboarding Teams',
       responsibilities: [
-        'Own end-to-end onboarding coordination with strict documentation and deadline requirements—background checks, I-9s, fingerprinting, and compliance tracking.',
-        'Maintain accurate records across multiple accounts and systems, ensuring compliance, audit readiness, and clean data for reporting.',
-        'Work closely with hiring managers, recruiters, and onboarding teams to streamline workflows, improve documentation processes, and enhance communication between stakeholders.',
-        'Spearhead process improvements by implementing tracking templates, standardized documentation, and structured reporting systems to improve efficiency and reduce errors.',
-        'Manage time-sensitive projects under tight deadlines, proactively identifying inefficiencies and implementing solutions that drive better candidate experience.',
-        'Track and report on onboarding status, compliance milestones, and account metrics.',
-        'Coordinate communication between clients, candidates, and internal teams to ensure smooth handoffs.',
-        'Resolve escalations and address documentation gaps before they impact deadlines.'
+        "Served as the main point of contact for accounts including Charles Schwab, Cigna, and Cencora, managing contractor agreements and the candidate lifecycle.",
+        "Maintained accurate records across accounts and systems to support compliance, audit readiness, and reporting.",
+        "Owned end-to-end onboarding coordination, including background checks, I-9s, fingerprinting, and compliance tracking under strict deadlines.",
+        "Partnered with hiring managers, recruiters, and onboarding teams to improve workflows, documentation, and communication.",
+        "Introduced tracking templates, standardized documentation, and structured reporting to improve efficiency and reduce errors.",
+        "Managed time-sensitive projects and resolved workflow inefficiencies to improve the candidate experience."
       ],
       tools: ['Background Screening Systems', 'Compliance Portals', 'CRM Tracking', 'Excel', 'Document Management Systems'],
       references: [
@@ -182,19 +173,14 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
       role: 'Sales & Proposal Coordinator (Contract)',
       period: 'August 2023 — February 2024',
       summary: 'Led end-to-end client onboarding and implementation onto the Viventium payroll platform.',
-      overview: 'Spearheaded seamless onboarding of new clients onto the Viventium payroll platform, from contract signature through system handoff, assuming the pivotal role as primary point of contact throughout various stages and lifecycles.',
+      overview: 'Spearheaded seamless onboarding of new clients onto the Viventium payroll platform, from contract signature through implementation handoff, serving as the primary point of contact and coordinating documentation and payroll data migration.',
       stakeholders: 'Sales Representatives, Payroll Implementation Specialists, IT, Clients',
       responsibilities: [
-        'Own the client database and document management throughout the implementation lifecycle, ensuring data integrity and seamless handoff to the onboarding team.',
-        'Draft, review, and manage all client contracts and proposals using CRM and database systems (Salesforce/Asana), ensuring strict compliance with business requirements and regulatory standards.',
-        'Own data extraction and migration from various payroll platforms (Gusto, Heartland, Paylocity), organizing and validating employee records, payroll data, and Excel-based reports to ensure accurate, import-ready documentation.',
-        'Partner with sales reps to track account status, flag missing documentation, and keep implementations on schedule.',
-        'Manage multiple client onboarding projects simultaneously under tight deadlines to meet revenue targets.',
-        'Coordinate payroll extraction and secure essential tax documentation from clients and prior providers.',
-        'Conduct weekly team meetings to address account status, blockers, and missing documentation.',
-        'Maintain accurate documentation throughout the client lifecycle, ensuring audit readiness and compliance.',
-        'Communicate proactively with clients to gather required information and set expectations on timelines.',
-        'Validate data accuracy before system import to prevent errors and rework.'
+        "Led new-client onboarding onto the Viventium payroll platform from contract signature, serving as the primary point of contact through implementation handoff.",
+        "Managed the client database and implementation documentation to preserve data integrity and support handoff to the onboarding team.",
+        "Drafted, reviewed, and managed client contracts and proposals using Salesforce and Asana, maintaining accurate records and meeting business and regulatory requirements.",
+        "Extracted and migrated data from Gusto, Heartland, and Paylocity. Organized and validated employee records, payroll data, and Excel reports for import.",
+        "Partnered with sales representatives to track account status, flag missing documentation, and keep multiple client implementations on schedule."
       ],
       tools: ['Salesforce', 'Asana', 'Excel (Advanced)', 'Gusto', 'Heartland', 'Paylocity', 'Document Management'],
       references: [
