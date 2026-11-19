@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import Sidebar from './components/Sidebar';
 import TopNav from './components/TopNav';
@@ -136,6 +137,7 @@ const App: React.FC = () => {
 
       <ResumeModal isOpen={isResumeOpen} onClose={() => setIsResumeOpen(false)} />
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 };
