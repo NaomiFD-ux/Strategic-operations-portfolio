@@ -110,8 +110,7 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
             </a>
           </div>
 
-          {/* LinkedIn Button */}
-          <div className="flex items-center justify-center mt-4">
+          <div className="flex flex-wrap items-center justify-center gap-3 mt-4">
             <a
               href="https://www.linkedin.com/in/naomidonley/"
               target="_blank"
@@ -120,6 +119,15 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
             >
               <span className="material-symbols-outlined text-lg">person</span>
               <span className="text-sm font-semibold uppercase tracking-wide">LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/NaomiFD-ux"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 hover:border-primary/50 bg-surface-dark hover:bg-primary/10 text-white hover:text-primary transition-all duration-300"
+            >
+              <span aria-hidden="true" className="material-symbols-outlined text-lg">code</span>
+              <span className="text-sm font-semibold uppercase tracking-wide">GitHub</span>
             </a>
           </div>
 
