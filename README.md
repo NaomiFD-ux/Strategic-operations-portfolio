@@ -47,7 +47,7 @@ Create a production build with `npm run build`, then inspect it with `npm run pr
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/taneekwadonley/)
+[LinkedIn](https://www.linkedin.com/in/naomidonley/)
 
 ## Publication review
 

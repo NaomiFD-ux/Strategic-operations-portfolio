@@ -205,7 +205,7 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
                 Let's Talk
               </a>
               <a
-                href="https://www.linkedin.com/in/taneekwadonley/"
+                href="https://www.linkedin.com/in/naomidonley/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full border border-white/10 text-white font-bold text-sm uppercase tracking-wider hover:border-primary hover:text-primary transition-colors"

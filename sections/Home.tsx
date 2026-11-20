@@ -113,7 +113,7 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
           {/* LinkedIn Button */}
           <div className="flex items-center justify-center mt-4">
             <a
-              href="https://www.linkedin.com/in/taneekwadonley/"
+              href="https://www.linkedin.com/in/naomidonley/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 hover:border-primary/50 bg-surface-dark hover:bg-primary/10 text-white hover:text-primary transition-all duration-300"

@@ -30,7 +30,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
                 </div>
               </a>
 
-              <a href="https://www.linkedin.com/in/taneekwadonley/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group cursor-pointer">
+              <a href="https://www.linkedin.com/in/naomidonley/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group cursor-pointer">
                 <div className="size-12 rounded-full border border-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-all duration-300">
                   <span className="material-symbols-outlined text-xl">partner_exchange</span>
                 </div>
