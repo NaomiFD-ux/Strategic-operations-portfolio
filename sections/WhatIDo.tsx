@@ -46,8 +46,8 @@ const WhatIDo: React.FC<WhatIDoProps> = ({ id }) => {
     {
       title: "Pricing & Commercial Alignment",
       icon: "payments",
-      description: "Ensuring pricing tells the right story—competitively and internally. I partner with finance, sales, and product teams to align pricing models with margin targets, scope clarity, and delivery realities.",
-      tags: ["Pricing coordination & validation", "Margin awareness & tradeoff analysis", "Commercial model support", "Price governance & documentation"]
+      description: "I coordinate proposal pricing and scope with finance, sales, and product teams. During delivery, I verify billing milestones, coordinate invoices, and track payments against agreed terms.",
+      tags: ["Pricing validation", "Billing milestones", "Invoicing", "Payment follow-up"]
     },
     {
       title: "Process & Workflow Optimization",

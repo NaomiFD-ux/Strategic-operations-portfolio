@@ -102,6 +102,21 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
       }
     },
     {
+      name: "Microsoft Copilot RFI Assistant",
+      company: "FlexGen",
+      toolType: "Customer RFI & Questionnaire Support",
+      context: "Business Development, Sales, and Proposal teams needed a faster way to draft responses to customer RFIs and technical questionnaires.",
+      approach: "I built a Microsoft Copilot assistant to give the teams a starting point for customer responses.",
+      building: "An internal assistant for drafting technical RFI responses and helping teams complete customer questionnaires.",
+      impacts: [
+        "Supports Business Development, Sales, and Proposal teams",
+        "Reduces the time spent drafting responses from scratch"
+      ],
+      result: "Helped customer-facing teams respond faster with drafts they could review and refine.",
+      tools: ["Microsoft Copilot", "Technical RFIs", "Customer Questionnaires"],
+      testimonial: null
+    },
+    {
       name: "Obsidian WorkHub",
       company: "Strategic Operations",
       toolType: "Knowledge Management Workspace",
@@ -221,7 +236,7 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
     {
       title: "Project Management & Field Operations",
       icon: "description",
-      items: ["Project Scheduling", "Procurement", "Change Orders", "Procore Submittals", "Electrical Drawing Review", "Equipment Inspections & Testing", "Project Closeout"]
+      items: ["Project Scheduling", "Procurement", "Change Orders", "Procore Submittals", "Electrical Drawing Review", "Equipment Inspections & Testing", "Milestone Billing", "Project Closeout"]
     },
     {
       title: "Strategic Operations & Automation",

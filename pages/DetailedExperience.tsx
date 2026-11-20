@@ -34,23 +34,24 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
     "company": "EPEC Solutions Inc.",
     "url": "",
     "logo": "EP",
-    "role": "Project Manager | Field Operations | Process Improvement (Contract)",
+    "role": "Project Manager (Contract)",
     "period": "March 2026 – Present",
     "summary": "20+ concurrent technical projects, factory inspections, and field operations.",
-    "overview": "Manage 20+ concurrent engineered electrical equipment projects from proposal and purchase order through delivery, site setup, and closeout for switchboards, panelboards, rack-on-rack solar skids, and PLC/HMI control systems. Serve as the customer’s primary contact while aligning engineering, manufacturing, materials, schedules, quality, and commercial requirements.",
+    "overview": "Manage 20+ concurrent engineered electrical equipment projects from proposal and purchase order through delivery, site setup, and closeout for switchboards, panelboards, rack-on-rails systems, solar skids, and PLC/HMI control systems. Serve as the customer’s primary contact while aligning engineering, manufacturing, materials, schedules, quality, and commercial requirements.",
     "stakeholders": "Customers, Engineers of Record, Sales, Engineering, Manufacturing Partners, Operations, Accounting",
     "responsibilities": [
         "Manage 20+ concurrent engineered electrical equipment projects from proposal and purchase order through production, delivery, site setup, and closeout. Projects include switchboards, panelboards, solar skids, and PLC/HMI control systems.",
         "Serve as the primary customer contact, leading kickoff meetings, design reviews, and project updates while coordinating engineering, manufacturing partners, vendors, and internal operations.",
-        "Review electrical drawings, single-line diagrams, specifications, and bills of material. Coordinate RFIs and manage submittals, revisions, and customer approvals in Procore.",
-        "Maintain schedules for procurement, long-lead materials, production, factory inspections, shipment, and delivery. Identify schedule risks and coordinate recovery plans.",
+        "Interpret electrical schematics, single-line diagrams, specifications, and bills of material. Coordinate RFIs and manage submittal logs, redlines, revisions, and customer approvals in Procore before release for fabrication.",
+        "Manage long-lead equipment procurement and maintain critical-path schedules through engineering release, fabrication, factory acceptance testing, freight, and jobsite delivery. Coordinate recovery plans when schedules are at risk.",
+        "Verify milestone billing against proposal terms, coordinate invoicing, and track payments against due dates. Follow up on overdue balances and trace missing payments to resolve discrepancies.",
         "Conduct factory progress and quality inspections, witness equipment testing, and verify shipment readiness with photographs, punch lists, and sign-offs.",
         "Coordinate site deliveries, check equipment for damage and completeness, oversee setup with customers, and perform or witness onsite inspections and testing.",
         "Manage change orders, customer-supplied equipment logistics, storage, and field issues. Coordinate corrective work and replacement parts with manufacturers.",
         "Develop project tracking tools, standardized documentation, and a leadership-approved client portal pilot to improve visibility and coordination across project teams and executive leadership."
     ],
     "tools": [
-        "Procore (Customer Submittals)",
+        "Procore (Project Manager Certifications)",
         "Excel",
         "Electrical Drawings & SLDs",
         "Submittal Logs",
@@ -86,14 +87,15 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
       overview: 'Led the end-to-end proposal lifecycle for Energy Management System (EMS) and Full-Product offerings, supporting pricing validation, scope alignment, and timely delivery of client-ready proposals. Served as the central point of contact across Business Development, Engineering, Legal, Finance, Operations, and vendors—coordinating inputs, aligning scope, and ensuring proposals are technically accurate, commercially sound, and operationally executable.',
       stakeholders: 'Business Development, Engineering, Legal, Finance, Operations, Executive Leadership, Subject Matter Experts',
       responsibilities: [
-        "Led the full EMS and Full-Product proposal lifecycle, supporting pricing validation, scope alignment, and timely delivery of client-ready proposals.",
+        "Led EMS and Full-Product proposals from bid/no-bid through best and final offer (BAFO), coordinating cost estimates, pricing validation, scope alignment, and on-time submissions.",
+        "Led proposal kickoff calls with engineering, business development, and pricing teams to align on win themes, customer requirements, deliverables, and deadlines.",
         "Analyzed RFPs, RFQs, and RFIs for evaluation criteria, compliance obligations, contractual requirements, risks, and submission instructions. Built compliance matrices and proposal management plans.",
         "Supported business development and capture through customer Q&A, proposal strategy discussions, process improvements, and post-submission lessons learned.",
         "Partnered with engineering, legal, operations, finance, business development, executive leadership, and subject matter experts to develop compliant technical and management proposals.",
         "Drafted, reviewed, and refined proposal content for clarity, accuracy, and alignment with customer requirements.",
         "Handled sensitive operational and customer-facing data with care. Managed document control, version history, and cross-functional access in SharePoint, Salesforce, and Excel."
       ],
-      tools: ['Excel (Advanced)', 'Salesforce', 'PowerPoint', 'SharePoint', 'Document Control', 'Word', 'Proposal Automation Tools'],
+      tools: ['Excel (Advanced)', 'Salesforce', 'PowerPoint', 'SharePoint', 'Document Control', 'Word', 'Microsoft Copilot', 'Proposal Automation Tools'],
       references: [
         {
           name: 'Antonio Wade',
@@ -110,10 +112,16 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
       ],
       projects: [
         {
-          name: 'Automated EMS Proposal Generation',
+          name: 'EMS & Full-Product Proposal Automation',
           problem: 'Proposal creation was manual, slow, and prone to input errors.',
-          solution: 'Built a system tool that transforms EMS Price Worksheet inputs into fully formatted, client-ready proposals within minutes.',
-          impact: 'Reduced proposal turnaround time by over 90%.'
+          solution: 'Built automation that generated client-ready EMS and Full-Product proposals in minutes.',
+          impact: 'Reduced proposal turnaround time by more than 90% across both workflows.'
+        },
+        {
+          name: 'Microsoft Copilot RFI Assistant',
+          problem: 'Business Development, Sales, and Proposal teams needed a faster way to start responses to customer RFIs and technical questionnaires.',
+          solution: 'Built a Microsoft Copilot assistant that helps teams draft responses and complete technical questionnaires.',
+          impact: 'Reduced manual drafting work and helped teams respond faster.'
         },
         {
           name: 'Customer-Facing Pricing & Proposal Portal',
@@ -179,10 +187,10 @@ const DetailedExperience: React.FC<DetailedExperienceProps> = ({ onBack }) => {
         "Led new-client onboarding onto the Viventium payroll platform from contract signature, serving as the primary point of contact through implementation handoff.",
         "Managed the client database and implementation documentation to preserve data integrity and support handoff to the onboarding team.",
         "Drafted, reviewed, and managed client contracts and proposals using Salesforce and Asana, maintaining accurate records and meeting business and regulatory requirements.",
-        "Extracted and migrated data from Gusto, Heartland, and Paylocity. Organized and validated employee records, payroll data, and Excel reports for import.",
+        "Extracted and migrated data from Gusto, Heartland, Paylocity, and ADP. Organized and validated employee records, payroll data, and Excel reports for import.",
         "Partnered with sales representatives to track account status, flag missing documentation, and keep multiple client implementations on schedule."
       ],
-      tools: ['Salesforce', 'Asana', 'Excel (Advanced)', 'Gusto', 'Heartland', 'Paylocity', 'Document Management'],
+      tools: ['Salesforce', 'Asana', 'Excel (Advanced)', 'Gusto', 'Heartland', 'Paylocity', 'ADP', 'Document Management'],
       references: [
         {
           name: 'Charles Christy',

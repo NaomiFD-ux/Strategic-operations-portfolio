@@ -31,15 +31,20 @@ const AboutMe: React.FC<AboutMeProps> = ({ onBack }) => {
             </div>
             <div className="space-y-6 text-neutral-text text-lg font-light leading-relaxed">
               <p>
-                I bring more than four years of experience in project management, proposal and tender management, and strategic operations. At EPEC Solutions, I manage 20+ concurrent engineered electrical equipment projects through procurement, production, factory testing, site delivery, and closeout.
+                I bring more than three years of experience across project delivery, proposal management, and client operations. At EPEC Solutions, I manage 20+ concurrent engineered electrical equipment projects through procurement, production, factory testing, site delivery, and closeout.
               </p>
               <p>
                 I began my career working directly with customers: managing requests, resolving issues, coordinating services, and navigating complex conversations where clarity, accuracy, and trust mattered. Those early experiences shaped how I work today — with a strong sense of ownership, empathy, and accountability for outcomes, not just tasks.
               </p>
               <p>
-                As my roles expanded, so did my scope. I moved into client coordination, sales support, onboarding, and proposal operations, where I became responsible for aligning customer needs with internal teams, pricing models, and delivery capabilities. At FlexGen, I led the EMS and Full-Product proposal lifecycle, working with engineering, finance, legal, operations, and business development to align scope, pricing, and compliance.
+                As my roles expanded, so did my scope. I moved into client coordination, sales support, onboarding, and proposal operations, where I became responsible for aligning customer needs with internal teams, pricing models, and delivery capabilities. At FlexGen, I led EMS and Full-Product proposals from bid/no-bid through best and final offer, coordinating scope, pricing, and compliance across teams.
               </p>
             </div>
+          </section>
+
+          <section aria-labelledby="education" className="space-y-3">
+            <h2 id="education" className="text-white text-xl font-light tracking-widest uppercase">Education</h2>
+            <p className="text-neutral-text text-lg font-light">B.S. in Business Management · Western Governors University · November 2026</p>
           </section>
 
           {/* How I Work */}

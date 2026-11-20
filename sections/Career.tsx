@@ -8,16 +8,16 @@ interface CareerProps {
 const Career: React.FC<CareerProps> = ({ id }) => {
   const journey = [
 {
-    "role": "Project Manager | Field Operations | Process Improvement (Contract)",
+    "role": "Project Manager (Contract)",
     "company": "EPEC Solutions Inc.",
     "period": "March 2026 – Present",
-    "description": "Managing 20+ concurrent engineered electrical equipment projects from proposal and purchase order through factory inspections, testing, site delivery, setup, and closeout. Serving as the primary customer contact and coordinating engineering, manufacturing, procurement, and Procore approvals."
+    "description": "Managing 20+ concurrent engineered electrical equipment projects from proposal and purchase order through factory inspections, testing, site delivery, setup, and closeout. Leading customer kickoffs, coordinating engineering and manufacturing, managing Procore submittals and approvals, and tracking billing milestones and payments."
 },
     {
       role: "Proposal Manager | Automations Specialist (Contract)",
       company: "FlexGen",
       period: "February 2025 – May 2026",
-      description: "Led EMS and Full-Product proposals, from solicitation analysis and compliance planning through pricing validation and submission. Automated EMS proposal generation, reducing turnaround time by over 90%."
+      description: "Led EMS and Full-Product proposals from bid/no-bid through best and final offer. Built automation that cut turnaround time by more than 90% across both workflows and a Copilot assistant for customer RFIs and technical questionnaires."
     },
     {
       role: "Client Service Coordinator (Contract)",

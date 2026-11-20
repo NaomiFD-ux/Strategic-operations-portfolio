@@ -37,8 +37,8 @@ const About: React.FC<AboutProps> = ({ id }) => {
 
             <div className="space-y-6 text-neutral-text text-lg font-light leading-relaxed">
               <p>I work across project management, proposal and tender management, and strategic operations. At EPEC Solutions, I manage 20+ concurrent engineered electrical equipment projects from proposal through delivery, site setup, and closeout. My work spans switchboards, panelboards, solar skids, and PLC/HMI control systems.</p>
-              <p>I lead customer coordination, track drawings and submittals, confirm materials, and maintain production and delivery schedules. I also visit manufacturing facilities and customer sites to inspect equipment, witness testing, assess shipping damage, and document open items with photos and punch lists.</p>
-              <p>At FlexGen, I led EMS and Full-Product proposals and built an automation that cut EMS proposal turnaround time by over 90%. My experience in contracts and client implementation helps me carry customer requirements through to delivery.</p>
+              <p>I lead customer kickoffs, interpret electrical drawings, manage RFIs and submittals in Procore, and coordinate factory and site acceptance testing. I also verify billing milestones, coordinate invoicing, and follow up on overdue or missing payments.</p>
+              <p>At FlexGen, I led EMS and Full-Product proposals and built automation that cut turnaround time by more than 90% across both workflows. I also built a Microsoft Copilot assistant to help Business Development, Sales, and Proposals draft responses to customer RFIs and technical questionnaires.</p>
             </div>
 
             <div className="grid grid-cols-2 gap-8 pt-4">

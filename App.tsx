@@ -128,7 +128,7 @@ const App: React.FC = () => {
             <div className="flex flex-wrap justify-center items-center gap-2">
               <span className="font-bold text-white tracking-tighter uppercase">Naomi F. Donley</span>
               <span className="opacity-40">/</span>
-              <span>Project Management | Proposal & Tender Management | Strategic Operations</span>
+              <span>Project Management | Proposal & Tender Management</span>
             </div>
             <p>© {new Date().getFullYear()} Naomi F. Donley. All rights reserved.</p>
           </div>
