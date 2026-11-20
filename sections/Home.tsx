@@ -71,7 +71,7 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
         </div>
 
         <div className="relative group perspective-1000 z-0">
-          <div className="absolute -inset-10 bg-gradient-to-tr from-primary/30 to-transparent rounded-[2rem] blur-[120px] opacity-40 group-hover:opacity-70 transition duration-1000"></div>
+          <div aria-hidden="true" className="pointer-events-none absolute -inset-10 bg-gradient-to-tr from-primary/30 to-transparent rounded-[2rem] blur-[120px] opacity-40 group-hover:opacity-70 transition duration-1000"></div>
           
           <div className="relative z-20 flex justify-center mb-7">
             <a href="https://naomi-professional-recommendations.naomifdonley.chatgpt.site/" target="_blank" rel="noopener noreferrer"
@@ -113,17 +113,13 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
           <div className="flex flex-wrap items-center justify-center gap-3 mt-4">
             <a
               href="https://www.linkedin.com/in/naomidonley/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 hover:border-primary/50 bg-surface-dark hover:bg-primary/10 text-white hover:text-primary transition-all duration-300"
             >
-              <span className="material-symbols-outlined text-lg">person</span>
+              <span aria-hidden="true" className="material-symbols-outlined text-lg">person</span>
               <span className="text-sm font-semibold uppercase tracking-wide">LinkedIn</span>
             </a>
             <a
               href="https://github.com/NaomiFD-ux"
-              target="_blank"
-              rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 hover:border-primary/50 bg-surface-dark hover:bg-primary/10 text-white hover:text-primary transition-all duration-300"
             >
               <span aria-hidden="true" className="material-symbols-outlined text-lg">code</span>
@@ -132,8 +128,8 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
           </div>
 
           {/* Floating decorative elements */}
-          <div className="absolute -top-6 -right-6 size-24 border border-primary/20 rounded-full animate-float-slow opacity-20"></div>
-          <div className="absolute -bottom-10 -left-10 size-48 border border-white/5 rounded-full animate-pulse-slow opacity-10"></div>
+          <div aria-hidden="true" className="pointer-events-none absolute -top-6 -right-6 size-24 border border-primary/20 rounded-full animate-float-slow opacity-20"></div>
+          <div aria-hidden="true" className="pointer-events-none absolute -bottom-10 -left-10 size-48 border border-white/5 rounded-full animate-pulse-slow opacity-10"></div>
         </div>
       </div>
     </section>
