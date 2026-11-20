@@ -75,7 +75,7 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
             <img
               src="/portrait.jpg"
               className="absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
-              alt="TaNeekwa S. Donley Professional Portrait"
+              alt="Naomi F. Donley Professional Portrait"
             />
             
             <div className="absolute bottom-8 left-8 right-8 p-6 rounded-2xl bg-background-dark/40 backdrop-blur-md border border-white/5 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -97,7 +97,7 @@ const Home: React.FC<HomeProps> = ({ id, onViewResume, onViewTools }) => {
               <span className="text-sm font-light">taneekwa@outlook.com</span>
             </a>
             <span className="text-white/20">|</span>
-            <a href="https://www.linkedin.com/in/taneekwadonley/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-neutral-text hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/naomidonley/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-neutral-text hover:text-primary transition-colors">
               <span className="material-symbols-outlined text-lg">person</span>
               <span className="text-sm font-light">LinkedIn</span>
             </a>
