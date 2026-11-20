@@ -31,19 +31,19 @@ const Projects: React.FC<ProjectsProps> = ({ id }) => {
     ]
 },
     {
-      title: "Automated EMS Proposal Tool",
+      title: "EMS & Full-Product Proposal Automation",
       role: "Proposal Manager | Automations Specialist",
       toolType: "Internal Proposal Automation",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80",
       challenge: "EMS proposals were created through manual transcription from complex Price Worksheets into PowerPoint decks. The process was slow, error-prone, and heavily dependent on individual knowledge, resulting in long turnaround times and inconsistent outputs.",
-      innovation: "Designed and built an automated proposal generation tool that transforms EMS Price Worksheet inputs into fully formatted, client-ready proposals. The tool standardizes structure, formatting, and content logic while allowing rapid regeneration when pricing or scope changes.",
+      innovation: "Built automation for EMS and Full-Product proposals. The EMS workflow turned Price Worksheet inputs into formatted, client-ready proposals and made it easy to regenerate them when pricing or scope changed.",
       impacts: [
         "Eliminated manual proposal assembly and repetitive formatting work",
         "Enabled near-instant regeneration for pricing or scope revisions",
         "Improved pricing accuracy and consistency across submissions",
         "Allowed sales teams to present pricing to customers earlier in the deal cycle"
       ],
-      result: "Reduced EMS proposal turnaround time by over 90%, generating client-ready proposals in minutes.",
+      result: "Generated client-ready EMS and Full-Product proposals in minutes and cut turnaround time by more than 90% across both workflows.",
       tools: ["Excel (Advanced)", "PowerPoint", "VBA/Macros", "SharePoint"]
     },
     {

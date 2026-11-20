@@ -28,9 +28,9 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
 
   const highlights = {
     'flexgen-tool': {
-      title: 'EMS Proposal Automation',
-      description: 'Built a tool that transforms Price Worksheet inputs into client-ready proposals automatically.',
-      metric: 'Over 90% less proposal turnaround time'
+      title: 'EMS & Full-Product Proposal Automation',
+      description: 'Built automation that generated client-ready EMS and Full-Product proposals in minutes.',
+      metric: 'Over 90% less turnaround time across both workflows'
     },
     'portal': {
       title: 'Customer Pricing Portal',
@@ -119,15 +119,15 @@ const CoverLetter: React.FC<CoverLetterProps> = ({ onBack }) => {
                 </p>
 
                 <p>
-                  Here's what I mean: At FlexGen, as Proposal Manager | Automations Specialist, I led the EMS proposal lifecycle. Within weeks, I noticed the team spending hours manually transcribing pricing data into PowerPoint decks—tedious, error-prone, and slow. So{' '}
+                  Here's what I mean: At FlexGen, as Proposal Manager | Automations Specialist, I led EMS and Full-Product proposals. Within weeks, I noticed the team spending hours manually transcribing pricing data into PowerPoint decks—tedious, error-prone, and slow. So{' '}
                   <span
                     className="text-primary border-b border-primary/30 cursor-help hover:border-primary transition-colors"
                     onMouseEnter={() => setActiveHighlight('flexgen-tool')}
                     onMouseLeave={() => setActiveHighlight(null)}
                   >
-                    I built a tool that transforms Price Worksheet inputs into fully formatted, client-ready proposals automatically
+                    I built automation that generated client-ready EMS and Full-Product proposals in minutes
                   </span>
-                  . The automation generated client-ready proposals in minutes and reduced turnaround time by over 90%.
+                  . It cut turnaround time by more than 90% across both workflows.
                 </p>
 
                 <p>

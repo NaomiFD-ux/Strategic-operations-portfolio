@@ -15,7 +15,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
               <span className="text-primary font-bold text-xs uppercase tracking-widest">Engagement</span>
               <h2 className="text-white text-5xl font-extralight tracking-tight leading-tight">Ready to <br/><span className="font-semibold">Align Success?</span></h2>
               <p className="text-neutral-text font-light leading-relaxed max-w-md">
-                Let’s discuss opportunities in project management, proposal and tender management, or strategic operations. Based in Durham, North Carolina; open to nationwide travel and relocation.
+                Let’s discuss opportunities in electrical project delivery, construction project coordination, or energy proposal and tender management. Based in Durham, North Carolina; open to nationwide travel and relocation.
               </p>
             </div>
 

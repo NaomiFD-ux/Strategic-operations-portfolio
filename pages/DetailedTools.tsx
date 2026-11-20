@@ -79,19 +79,19 @@ const DetailedTools: React.FC<DetailedToolsProps> = ({ onBack }) => {
     ]
 },
     {
-      name: "Automated EMS Proposal Tool",
+      name: "EMS & Full-Product Proposal Automation",
       company: "FlexGen",
       toolType: "Internal Proposal Automation",
-      context: "At FlexGen, I led Energy Management System proposals as Proposal Manager | Automations Specialist. Within my first few weeks, I noticed the team spending hours manually transcribing data from complex Price Worksheets into PowerPoint decks—work that was tedious, error-prone, and created real bottlenecks.",
+      context: "At FlexGen, I led Energy Management System (EMS) and Full-Product proposals as Proposal Manager | Automations Specialist. Within my first few weeks, I noticed the team spending hours manually transcribing data from complex Price Worksheets into PowerPoint decks—work that was tedious, error-prone, and created real bottlenecks.",
       approach: "I started by shadowing the process end-to-end, asking questions about what information was always needed, what changed between proposals, and where errors typically crept in. I mapped out the entire workflow and identified the repetitive patterns. Then I began building—starting small with one section, testing it with the team, getting feedback, and iterating. I collaborated closely with Business Development and Tendering to make sure the output matched what they actually needed, not just what I assumed.",
-      building: "The tool I built transforms EMS Price Worksheet inputs into fully formatted, client-ready proposals automatically. It standardizes structure, formatting, and content logic while allowing rapid regeneration when pricing or scope changes. I designed it to be flexible enough that anyone on the team could use it without needing to understand the backend logic.",
+      building: "I built automation that generated client-ready EMS and Full-Product proposals. The EMS workflow used Price Worksheet inputs to standardize structure, formatting, and content. The proposal team could regenerate documents quickly when pricing or scope changed.",
       impacts: [
         "Eliminated manual proposal assembly and repetitive formatting work",
         "Enabled near-instant regeneration for pricing or scope revisions",
         "Improved pricing accuracy and consistency across submissions",
         "Allowed sales teams to present pricing to customers earlier in the deal cycle"
       ],
-      result: "Reduced EMS proposal turnaround time by over 90%, generating client-ready proposals in minutes.",
+      result: "Generated client-ready EMS and Full-Product proposals in minutes and cut turnaround time by more than 90% across both workflows.",
       tools: ["Excel (Advanced)", "PowerPoint", "VBA/Macros", "SharePoint"],
       testimonial: {
         quote: "This tool completely transformed how we handle EMS proposals. What used to take days now takes minutes, and the accuracy is consistently better than our manual process ever was.",
