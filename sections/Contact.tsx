@@ -39,6 +39,16 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
                   <p className="text-white font-light group-hover:text-primary transition-colors">LinkedIn Profile</p>
                 </div>
               </a>
+
+              <a href="https://github.com/NaomiFD-ux" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group cursor-pointer">
+                <div aria-hidden="true" className="size-12 rounded-full border border-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-all duration-300">
+                  <span className="material-symbols-outlined text-xl">code</span>
+                </div>
+                <div>
+                  <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest">Public Projects</p>
+                  <p className="text-white font-light group-hover:text-primary transition-colors">GitHub Profile</p>
+                </div>
+              </a>
             </div>
           </div>
 
